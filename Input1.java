@@ -1,12 +1,16 @@
 import java.util.Scanner;
 
-public class input {
+public class Input1 {
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int a= scanner.nextInt();
         int b= scanner.nextInt();
         int sum=a+b;
         System.out.println(sum);
         scanner.close();
     }
+    
 }
+
+
